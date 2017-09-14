@@ -1,0 +1,2 @@
+eval $(docker-machine env Char)
+docker network create -d overlay overmind

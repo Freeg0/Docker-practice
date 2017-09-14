@@ -1,2 +1,2 @@
-docker-machine ssh Aiur
+eval $(docker-machine env Aiur)
 docker swarm join --token <token-of-swarm> ip:port
